@@ -1,0 +1,47 @@
+﻿{
+	"graph" : {
+		"refreshEveryNSeconds" : 120,
+		"color" : "red",
+		"total" : true,
+		"type" : "bar",
+		"xAxis" : {
+			"showEveryLabel" : true
+		},
+		"yAxis" : {
+			"hide" : true,
+			"minValue" : 50,
+			"maxValue" : 150,
+			"units" : {
+				"prefix" : "$",
+				"suffix" : "%"
+			}
+		},
+		"title" : "Soft Drink Sales",
+		"error" : {
+			"message" : "Message displayed on panel",
+			"detail" : "Message displayed after quad-tap on panel"
+		},
+		"datasequences" : [
+		{
+			"title" : "X-Cola",
+			"datapoints" : [
+				{ "title" : "2008", "value" : 22 },
+				{ "title" : "2009", "value" : 24 },
+				{ "title" : "2010", "value" : 25.5 },
+				{ "title" : "2011", "value" : 27.9 },
+				{ "title" : "2012", "value" : 31 },
+			]
+		},
+		{
+			"title" : "Y-Cola",
+			"datapoints" : [
+				{ "title" : "2008", "value" : 18.4 },
+				{ "title" : "2009", "value" : 20.1 },
+				{ "title" : "2010", "value" : 24.8 },
+				{ "title" : "2011", "value" : 26.1 },
+				{ "title" : "2012", "value" : 29 },
+				]
+			}
+			]
+	}
+}
